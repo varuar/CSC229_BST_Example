@@ -10,9 +10,9 @@ package com.mycompany.csc229_bst_example;
  */
 public class BstNode {
 
-    private BstNode left;
-    private BstNode right;
-    private Integer data;
+    BstNode left;
+    BstNode right;
+    Integer data;
 
     public BstNode(Integer data) {
         this.data = data;
